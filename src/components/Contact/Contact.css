@@ -1,0 +1,183 @@
+
+#form{
+    margin-left: 23%;
+    margin-top: -87%;
+ 
+
+}
+.contact{
+  
+    background: url('black.jpg');
+    border-radius: 12px;
+    background-size: cover;
+}
+.contact .contact {
+
+    text-align: center;
+}
+.contact .contact h3 {
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+}
+.contact .contact h3:hover{
+    color: lightseagreen;
+}
+.contact .contact p:hover{
+    color: lightseagreen;
+}
+.contact .contact p {
+    font-weight: 300;
+    color: #fff;
+}
+ 
+.container
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.container .contactInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.container .contactInfo .box
+ {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+    width: fit-content;
+}
+
+.container .contactInfo .box .icon{
+    min-width: 50px;
+    height: 50px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+.contact .contactInfo .box .text {
+    display: flex;
+    margin-left: 20px;
+    font-size: 12px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+} 
+.text{
+    font-size:12px;
+}
+.form 
+{
+   color: #fff;
+   letter-spacing: 0.5px;
+   outline: none;
+   
+   
+
+}     
+.form2
+{
+
+         margin: auto;
+         left: 50%;
+         border-radius: 10px;
+         backdrop-filter:blur (10px);
+         padding: 50px 50px;
+
+} 
+.form2 h3{
+   font-size: 32px;
+   font-weight: bold;
+   line-height: 42px;
+   text-align: center;
+}
+.form2 h3 span {
+   display: block;
+   font-size: 16px;
+   font-weight: 300px;
+}
+ .label
+{
+    display: block;
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: 500px;
+    margin-left: 60px;
+    color: #fff;
+
+
+}
+.input2
+{
+    display: block;
+    height: 50px;
+    width: 86%;
+    background-color: #ffffff12;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 15px;
+    font-weight: 300px;
+    margin-left: 20%;
+}
+::placeholder{
+   color: #e5e5e5;
+}
+.contact .contactInfo .box .text h3 
+{
+    font-weight: 500;
+    color: #00bcd4;
+}
+.contactForm{
+    width: 40%;
+    height: 40px;
+    background: #fff;
+    margin-top: -39%;
+
+}
+.contactForm h2{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 500;
+} 
+.input3[type=submit] {
+ 
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 22px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 59px;
+  }
+  
+  .input3[type=submit]:hover {
+    background-color: #ff512f;
+  }
+@media(max-width:770px){
+  #form{
+    margin-top: -168%;
+    margin-left: 83px;
+  }
+    .label{
+        margin-top: 12px;
+    }
+   .input2{
+       
+    margin-left: 91%;
+    width: 158%;
+}
+   
+    
+}

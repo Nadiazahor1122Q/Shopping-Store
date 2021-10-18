@@ -1,0 +1,27 @@
+.about{
+    margin-left: 63%;
+    margin-top: -30%;
+   
+}
+.about-text{
+    margin-top: 117px;
+    margin-left: 108px;
+    color: #555;
+}
+.about-text h2:hover{
+    color: lightseagreen;
+}
+.about-text p:hover{
+    color:lightseagreen;
+}
+@media(max-width:770px){
+    .about-text{
+        margin-left: 6%;
+    }
+  .about{
+    
+    margin-left: 37%;
+    margin-top: -49%;
+   
+  }  
+}
